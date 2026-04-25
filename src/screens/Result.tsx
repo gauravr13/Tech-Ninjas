@@ -12,7 +12,7 @@ export function Result() {
 
   return (
     <div className="page result-mobile">
-      
+
       {/* Header */}
       <div className="result-header">
         <FileText size={40} color="#94a3b8" />

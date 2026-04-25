@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { LayoutDashboard, Camera, MessageSquare, FileText } from 'lucide-react'
+import { LayoutDashboard, MessageSquare, FileText } from 'lucide-react'
 
 /**
  * BOTTOM NAVIGATION COMPONENT
@@ -15,11 +15,6 @@ export function BottomNav() {
         <span>Dash</span>
       </NavLink>
 
-      {/* Form Scan / Upload Link */}
-      <NavLink to="/upload" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-        <Camera size={24} />
-        <span>Scan</span>
-      </NavLink>
 
       {/* Chat Assistant Link */}
       <NavLink to="/chat" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
