@@ -1,3 +1,8 @@
+/**
+ * UPLOAD SCREEN (Placeholder)
+ * This screen will handle document scanning and gallery uploads.
+ * Currently just a simple placeholder.
+ */
 export function Upload() {
   return (
     <div className="page">
